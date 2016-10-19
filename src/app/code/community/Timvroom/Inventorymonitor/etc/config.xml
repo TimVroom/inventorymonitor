@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Timvroom_Inventorymonitor>
+            <version>1.0.0</version>
+        </Timvroom_Inventorymonitor>
+    </modules>
+    <global>
+        <blocks>
+            <timvroom_inventorymonitor>
+                <class>Timvroom_Inventorymonitor_Block</class>
+            </timvroom_inventorymonitor>
+        </blocks>
+        <helpers>
+            <timvroom_inventorymonitor>
+                <class>Timvroom_Inventorymonitor_Helper</class>
+            </timvroom_inventorymonitor>
+        </helpers>
+        <models>
+            <timvroom_inventorymonitor>
+                <class>Timvroom_Inventorymonitor_Model</class>
+            </timvroom_inventorymonitor>
+        </models>
+        <resources>
+            <timvroom_inventorymonitor_setup>
+                <setup>
+                    <module>Timvroom_Inventorymonitor</module>
+                </setup>
+            </timvroom_inventorymonitor_setup>
+        </resources>
+    </global>
+</config>
