@@ -1,15 +1,15 @@
 {
-    "name": "Timvroom/Inventorymonitor",
+    "name": "timvroom/inventorymonitor",
     "license": "OSL-3.0",
     "type": "magento-module",
-    "description": "Add your description here",
+    "description": "Inventory monitor for magento 1",
     "require": {
         "magento-hackathon/magento-composer-installer": "*"
     },
     "authors":[
         {
-            "name":"Add your name here",
-            "email":"Add your email address here"
+            "name":"Tim Vroom",
+            "email":"tim@timvroom.nl"
         }
     ]
 }
