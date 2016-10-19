@@ -1,6 +1,6 @@
 <?php
 
-class Timvroom_Inventorymonitor extends Mage_Core_Helper_Abstract
+class Timvroom_Inventorymonitor_Helper_Data extends Mage_Core_Helper_Abstract
 {
 
 }

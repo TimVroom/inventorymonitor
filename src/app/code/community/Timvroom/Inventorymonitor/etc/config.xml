@@ -7,26 +7,57 @@
     </modules>
     <global>
         <blocks>
-            <timvroom_inventorymonitor>
+            <inventorymonitor>
                 <class>Timvroom_Inventorymonitor_Block</class>
-            </timvroom_inventorymonitor>
+            </inventorymonitor>
         </blocks>
         <helpers>
-            <timvroom_inventorymonitor>
+            <inventorymonitor>
                 <class>Timvroom_Inventorymonitor_Helper</class>
-            </timvroom_inventorymonitor>
+            </inventorymonitor>
         </helpers>
         <models>
-            <timvroom_inventorymonitor>
+            <inventorymonitor>
                 <class>Timvroom_Inventorymonitor_Model</class>
-            </timvroom_inventorymonitor>
+                <resourceModel>inventorymonitor_resource</resourceModel>
+            </inventorymonitor>
+            <inventorymonitor_resource>
+                <class>Timvroom_Inventorymonitor_Model_Resource</class>
+                <entities>
+                    <monitor>
+                        <table>inventorymonitor_monitor</table>
+                    </monitor>
+                </entities>
+            </inventorymonitor_resource>
         </models>
         <resources>
-            <timvroom_inventorymonitor_setup>
+            <inventorymonitor_setup>
                 <setup>
                     <module>Timvroom_Inventorymonitor</module>
                 </setup>
-            </timvroom_inventorymonitor_setup>
+            </inventorymonitor_setup>
         </resources>
+        <events>
+            <cataloginventory_stock_item_save_before>
+                <observers>
+                    <timvroom_inventorymonitor>
+                        <class>inventorymonitor/observer</class>
+                        <method>cataloginventoryStockItemSaveBefore</method>
+                        <type>singleton</type>
+                    </timvroom_inventorymonitor>
+                </observers>
+            </cataloginventory_stock_item_save_before>
+        </events>
     </global>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <Timvroom_Inventorymonitor after="Mage_Adminhtml">Timvroom_Inventorymonitor_Adminhtml</Timvroom_Inventorymonitor>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
 </config>

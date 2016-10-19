@@ -1,15 +1,11 @@
 Timvroom Inventorymonitor Extension
 =====================
-Add your description here
+Small module to monitor the qty changes (from where and to where)
+
 Facts
 -----
 - version: 1.0.0
-- extension key: Timvroom_Inventorymonitor
-- [extension on Magento Connect](http://www.magentocommerce.com/magento-connect/timvroom)-inventorymonitor-1234.html)
-- Magento Connect 1.0 extension key: magento-community/Timvroom_Inventorymonitor
-- Magento Connect 2.0 extension key: http://connect20.magentocommerce.com/community/Timvroom_Inventorymonitor
-- [extension on GitHub](https://github.com/timvroom/Timvroom_Inventorymonitor)
-- [direct download link](http://connect.magentocommerce.com/community/get/Timvroom_Inventorymonitor-1.0.0.tgz)
+- [extension on GitHub](https://github.com/timvroom/inventorymonitor)
 
 Description
 -----------
@@ -17,29 +13,15 @@ This paragraph describes what the extension does.
 
 Requirements
 ------------
-- PHP >= 5.2.0
-- Mage_Core
-- ...
+- PHP >= 5.5.0
 
 Compatibility
 -------------
-- Magento >= 1.4
-
-Installation Instructions
--------------------------
-1. Install the extension via Magento Connect with the key shown above or copy all the files into your document root.
-2. Clear the cache, logout from the admin panel and then login again.
-3. Configure and activate the extension under System - Configuration - Company - Example Extension.
-4. ...
-
-Uninstallation
---------------
-1. Remove all extension files from your Magento installation
-2. ...
+- Magento >= 1.6 (only tested on 1.9, but should be working on previous version)
 
 Support
 -------
-If you have any issues with this extension, open an issue on [GitHub](https://github.com/timvroom/Timvroom_Inventorymonitor/issues).
+If you have any issues with this extension, open an issue on [GitHub](https://github.com/timvroom/inventorymanager/issues).
 
 Contribution
 ------------
@@ -47,13 +29,11 @@ Any contribution is highly appreciated. The best way to contribute code is to op
 
 Developer
 ---------
-
-[http://www.firstname-lastname.com](http://www.firstname-lastname.com)
-[@FirstNameLastName](https://twitter.com/FirstNameLastName)
+Tim Vroom
 
 Licence
 -------
-[OSL - Open Software Licence 3.0](http://opensource.org/licenses/osl-3.0.php)
+[MIT Licence (see LICENCE)](https://github.com/TimVroom/inventorymonitor/blob/master/LICENSE)
 
 Copyright
 ---------

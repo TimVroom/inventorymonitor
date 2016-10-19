@@ -1,6 +1,6 @@
 {
     "name": "timvroom/inventorymonitor",
-    "license": "OSL-3.0",
+    "license": "MIT",
     "type": "magento-module",
     "description": "Inventory monitor for magento 1",
     "require": {

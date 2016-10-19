@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<config>
+    <menu>
+        <catalog translate="title">
+            <children>
+                <inventorymonitor translate="title" module="inventorymonitor">
+                    <title>Inventory Monitor</title>
+                    <action>adminhtml/inventorymonitor</action>
+                    <sort_order>90</sort_order>
+                </inventorymonitor>
+            </children>
+        </catalog>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <catalog>
+                        <children>
+                            <inventorymonitor translate="title">
+                                <title>Inventory Monitor</title>
+                            </inventorymonitor>
+                        </children>
+                    </catalog>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>
